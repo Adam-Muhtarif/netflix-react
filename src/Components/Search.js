@@ -1,13 +1,15 @@
-function Search() {
+export default function Search(props) {
   return (
     <div className="search-section">
       Search for your favorite shows
-      <div classNameName="search-input">
-        <input className="search-box" type="text" placeholder="Search" />
-        <button className="btn-search">Search</button>
+      <div className="search-input">
+        <input
+          onChange={(e) => props.searchMovie(e.target.value)}
+          className="search-box"
+          type="text"
+          placeholder="Search"
+        />
       </div>
     </div>
   );
 }
-
-export default Search;

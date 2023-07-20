@@ -74,14 +74,17 @@
   display: flex;
   flex-wrap: wrap;
   margin: 15px 50px;
+  max-width: 100%;
 }
 
 .movie-card {
-  margin: 0px 10px;
+  margin: 0px 10px 45px;
+  /* min-height: 327px; */
+  position: relative;
 }
 
 .movie-image {
-  height: 250px;
+  height: 205px;
 }
 
 .movie-image img {
@@ -91,4 +94,21 @@
 .movie-heading {
   font-weight: bold;
   color: red;
+  /* word-wrap: break-word; */
+  width: 177.9px;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.button{
+  padding:4px 10px;
+  font-size:13px;
+  color:white;
+  background-color:red;
+  border: none;
+  margin: 4px 0px;
+  position: absolute;
+  bottom: -35px;
 }
