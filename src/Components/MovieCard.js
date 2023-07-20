@@ -15,7 +15,7 @@ export default function MovieCard(props) {
               : imageNotFound
           }
           style={{ width: 177.9, height: 200 }}
-          alt=""
+          alt="movie_image"
         ></img>
       </div>
       <h3 className="movie-heading">{props.movie.show.name}</h3>
@@ -24,7 +24,7 @@ export default function MovieCard(props) {
           <img
             src="https://pngimg.com/d/star_PNG41474.png"
             height="15"
-            alt="show_image"
+            alt="rating_star"
           ></img>
           <h3>{props.movie.show.rating.average || 0}</h3>
         </div>
