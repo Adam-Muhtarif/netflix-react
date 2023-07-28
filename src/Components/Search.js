@@ -4,7 +4,7 @@ export default function Search(props) {
       Search for your favorite shows
       <div className="search-input">
         <input
-          onChange={(e) => props.searchMovie(e.target.value)}
+          onChange={(e) => props.setMovieName(e.target.value)}
           className="search-box"
           type="text"
           placeholder="Search"
