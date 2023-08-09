@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Adam-Muhtarif/netflix-react/static/css/main.e260cd7e.css",
+    "main.js": "/Adam-Muhtarif/netflix-react/static/js/main.c269cf9f.js",
+    "index.html": "/Adam-Muhtarif/netflix-react/index.html",
+    "main.e260cd7e.css.map": "/Adam-Muhtarif/netflix-react/static/css/main.e260cd7e.css.map",
+    "main.c269cf9f.js.map": "/Adam-Muhtarif/netflix-react/static/js/main.c269cf9f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e260cd7e.css",
+    "static/js/main.c269cf9f.js"
+  ]
+}
