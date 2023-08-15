@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 export default function App() {
   let [movies, setMovies] = useState([]);
-  let [movieName, setMovieName] = useState("");
+  let [movieName, setMovieName] = useState("Test");
 
   useEffect(() => {
     async function getData() {
@@ -20,7 +20,7 @@ export default function App() {
         console.log(reason);
       }
     }
-    if (movieName) getData();
+    getData();
   }, [movieName]);
 
   return (
@@ -30,7 +30,7 @@ export default function App() {
         <Search setMovieName={setMovieName} />
         <div className="movies-section">
           {movies.map((movie, i) => (
-            <MovieCard key={i} movie={movie} />
+            <MovieCard key={i} {...movie} />
           ))}
         </div>
       </div>
