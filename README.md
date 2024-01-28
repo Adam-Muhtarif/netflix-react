@@ -53,26 +53,25 @@ Before running the app, ensure that you have the following installed:
 
 ### 2.2 Installation
 
-1. Clone the repository:
+Clone the repository:
 
 ```bash
 git clone https://github.com/your-username/react-tvmaze-app.git
 ```
 
-2. Navigate to the project directory:
+Navigate to the project directory:
 
 ```bash
 cd react-tv-maze-app
 ```
 
-3. Install dependencies:
-
+Install dependencies:
 
 ```bash
 npm i
 ```
 
-2. Running The App:
+### 2.3 Running The App:
 
 Start the development server:
 
