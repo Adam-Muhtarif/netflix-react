@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-1. [Getting Started](#getting-started)
+1. [Introduction](#introduction)
     - 1.1 [Purpose](#purpose)
     - 1.2 [Features](#features)
     - 1.3 [Technologies Used](#technologies-used)
@@ -16,7 +16,7 @@
     - 4.1 [Search for Shows](#search-for-shows)
     - 4.2 [View Show Details](#view-show-details)
 
-## Heading with Custom ID (Extended Markdown Syntax) {#custom-id}
+## 1. Introduction {#custom-id}
 
 ### 1.1 Purpose
 
