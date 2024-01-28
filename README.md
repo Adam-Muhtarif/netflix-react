@@ -16,7 +16,7 @@
     - 4.1 [Search for Shows](#search-for-shows)
     - 4.2 [View Show Details](#view-show-details)
 
-## 1. Introduction # {#introduction}
+## 1. Introduction{#introduction}
 
 ### 1.1 Purpose
 
