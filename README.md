@@ -12,19 +12,11 @@
     - 2.2 [Installation](#installation)
     - 2.3 [Running the App](#running-the-app)
 
-3. [App Structure](#app-structure)
-    - 3.1 [Components](#components)
-    - 3.2 [Services](#services)
-    - 3.3 [Styles](#styles)
-    - 3.4 [Assets](#assets)
-
 4. [Usage](#usage)
     - 4.1 [Search for Shows](#search-for-shows)
     - 4.2 [View Show Details](#view-show-details)
-    - 4.3 [Error Handling](#error-handling)
 
-
-## 1. Introduction
+## 1. [Introduction]{#introduction}
 
 ### 1.1 Purpose
 
@@ -74,6 +66,14 @@ npm i
 ### 2.3 Running The App:
 
 Start the development server:
+
+4. Usage
+4.1 Search for Shows
+
+Enter the name of the TV show you want to search for in the provided search bar. The app will display a list of shows matching the search query.
+4.2 View Show Details
+
+Click on a show from the list to view detailed information about that specific show, including the show's name, summary, and images.
 
 ```bash
 npm start
