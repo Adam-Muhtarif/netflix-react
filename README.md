@@ -58,3 +58,26 @@ Before running the app, ensure that you have the following installed:
 ```bash
 git clone https://github.com/your-username/react-tvmaze-app.git
 ```
+
+2. Navigate to the project directory:
+
+```bash
+cd react-tv-maze-app
+```
+
+3. Install dependencies:
+
+
+```bash
+npm i
+```
+
+2. Running The App:
+
+Start the development server:
+
+```bash
+npm start
+```
+
+The app will be accessible at http://localhost:3000 in your web browser.
