@@ -48,7 +48,7 @@ Before running the app, ensure that you have the following installed:
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/react-tvmaze-app.git
+git clone git@github.com:Adam-Muhtarif/react-tv-maze-app.git
 ```
 
 Navigate to the project directory:
@@ -67,16 +67,18 @@ npm i
 
 Start the development server:
 
-4. Usage
-4.1 Search for Shows
-
-Enter the name of the TV show you want to search for in the provided search bar. The app will display a list of shows matching the search query.
-4.2 View Show Details
-
-Click on a show from the list to view detailed information about that specific show, including the show's name, summary, and images.
-
 ```bash
 npm start
 ```
 
 The app will be accessible at http://localhost:3000 in your web browser.
+
+## 4. Usage
+### 4.1 Search for Shows
+
+Enter the name of the TV show you want to search for in the provided search bar. The app will display a list of shows matching the search query.
+
+### 4.2 View Show Details
+
+Click on a show from the list to view detailed information about that specific show, including the show's name, summary, and images.
+
