@@ -24,7 +24,7 @@
     - 4.3 [Error Handling](#error-handling)
 
 
-## 1. Introduction {#introduction} 
+## 1. Introduction
 
 ### 1.1 Purpose
 
